@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 50px;
+}
+
+.menu{
+    font-size: medium;
+    color: #252432;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 37px;
+}
+.menu-between{
+    color: #8987A1;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.first-part{
+    font-size: 65px;
+    line-height:0;
+}
+.welcome{
+    display:flex;
+    margin: 50px;
+}
+.second{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.card{
+     width:270px;
+    height:323px;
+    border: 9px solid white;
+   
+}
+.card img{
+    width:270px;
+    height:323px;
+}
+button{
+    width:270px;
+    height:50px;
+
+}
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 140px;
+   
+}
+.product{
+    margin: 150px;
+}
+.lover{
+    display:flex;
+    justify-content: space-between;
+    margin: 400px 350px 400px 160px;
+
+}
+.lover img{
+    align-items: center;
+}
+.deal-container{
+    text-align: center;
+    margin: 40px;
+}
+.dael-card{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+    margin-top: 30px;
+    grid-row: 1 / span 2;
+    height:100%
+}
+.deal{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.deal h3{
+    margin: 0;
+    font-size: 22px;
+}
+.deal a{
+    color:white;
+    text-decoration: underline;
+    font-size: 17px;
+}
