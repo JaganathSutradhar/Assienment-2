@@ -9,6 +9,8 @@
     color: #252432;
     list-style: none;
     display: inline;
+    /*display:flex;
+    justify-content: space-around;*/
     margin-right: 20px;
     margin-top: 37px;
 }
@@ -24,6 +26,7 @@
 }
 .welcome{
     display:flex;
+    justify-content: space-around;
     margin: 50px;
 }
 .second{
@@ -57,7 +60,9 @@ button{
 }
 .lover{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    /*justify-content: space-around;*/
+    gap: 60px;
     margin: 400px 350px 400px 160px;
 
 }
@@ -92,3 +97,53 @@ button{
     text-decoration: underline;
     font-size: 17px;
 }
+.join{
+    width:2800px;
+    height:1066px;
+    background-image: url(../../Users/MIDT/Downloads/news-letter-bg.png);
+    background-size: auto;
+    background-position: cover;
+    /*background-repeat: no-repeat;*/
+
+
+}
+.colorful{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+}
+.join .join div{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.join input{
+    height:50px;
+    width:830px;
+    align-items: center;
+}
+.join button{
+    height:50px;
+    background-color: #E95A08;
+}footer{
+    display:flex;
+    justify-content: space-between;
+    margin:40px 100px;
+}
+.hudai{
+    list-style: none;
+    color:gray;
+}
+.hudai li{
+    margin-bottom: 20px;
+}
+.logo img{
+    display:inline;
+    margin-right: 40px;
+}    
+
+    
