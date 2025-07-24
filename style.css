@@ -145,5 +145,12 @@ button{
     display:inline;
     margin-right: 40px;
 }    
-
+@media (max-width:800px){
+    .welcome div{
+        display:flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+}
     
